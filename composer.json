@@ -1,0 +1,15 @@
+{
+    "name": "juteexj/brain-games",
+    "description": "first hex`s project",
+    "authors": [
+        {
+            "name": "Yaroslav Volkov",
+            "email": "vo.yar58@yandex.ru"
+        }
+    ],
+    "bin": [
+        "./my-project"
+    ],
+    "require": {}
+    
+}
