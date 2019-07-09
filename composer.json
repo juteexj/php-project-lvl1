@@ -8,8 +8,6 @@
         }
     ],
     "bin": [
-        "./my-project"
-    ],
-    "require": {}
-    
+        "./brain-games"
+    ]
 }
