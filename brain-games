@@ -1,8 +1,8 @@
 #!/usr/bin/env php
 
 <?php
-use function \cli\line;
+echo 'Welcome to the Brain Game!', PHP_EOL;
+echo 'May I have your name? ';
 
-line('Welcome to the Brain Game!');
-$name = \cli\prompt('May I have your name?');
-line("Hello, %s!", $name);
+$name = trim(fgets(STDIN));
+echo "Hello, {$name}!", PHP_EOL;
