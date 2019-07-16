@@ -15,6 +15,6 @@ if (file_exists($autoloadPath1)) {
 
 function run () {
     line('Welcome to the Brain Game!');
-    $name = \cli\prompt('May I have your$
+    $name = \cli\prompt('May I have your name?');
     line("Hello, %s!", $name);
 };
