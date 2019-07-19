@@ -26,3 +26,4 @@ Repository stats
 
 0 OTHER ISSUES
 
+https://api.travis-ci.org/v3/job/561125781/log.txt
