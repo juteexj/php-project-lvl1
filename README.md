@@ -3,6 +3,8 @@
 
 Аскинема со второго шага проекта: https://asciinema.org/a/k7kFGMp5s7TPt3HfxvLYkYEX1
 
+Аскинема с четвертого шага проекта: https://asciinema.org/a/2HIqtp7PtT1h1FwE8NWJS9SAk
+
 Breakdown
 
 7 FILES
