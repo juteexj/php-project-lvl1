@@ -30,5 +30,6 @@ function hello()
             line("'yes' is wrong answer ;( Correct answer was 'no'. Let's try again, {$name}!");
             break;
         }
+          line("Congratulations, {$name}!");
     }
 }
