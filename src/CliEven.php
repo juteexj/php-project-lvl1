@@ -4,9 +4,8 @@ namespace Project\Game;
 
 use function \cli\line;
 use function \cli\prompt;
-use function \cli\out;
 
-function hello()
+function Even()
 {
     line("Welcome to the Brain Game!\n");
     line("Answer \"yes\" if number even otherwise answer \"no\".\n");
@@ -29,7 +28,9 @@ function hello()
         } elseif ($value % 2 === 1 && $answer == 'yes') {
             line("'yes' is wrong answer ;( Correct answer was 'no'. Let's try again, {$name}!");
             break;
+        } elseif ($answer !== "yes" || $answer !== "no") {
+            line("{$answer} is wrong answer ;( Let`s try again, {$name}!\n");
+            break;
         }
-          line("Congratulations, {$name}!");
     }
 }
