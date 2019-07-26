@@ -5,6 +5,8 @@
 
 Аскинема с четвертого шага проекта: https://asciinema.org/a/2HIqtp7PtT1h1FwE8NWJS9SAk
 
+Пятый шаг: https://asciinema.org/a/9O2Rh8OF5RXjeAuvKojFHD7kQ
+
 Breakdown
 
 7 FILES
