@@ -13,13 +13,3 @@ function run()
     $name = \cli\prompt('May I have your name?');
     line("Hello, %s!", $name);
 }
-
-
-/*line("Question: {$exampleNum}");
-$answer = \cli\prompt("Your answer \n");
-if ($answer == $exampleNum) {
-    line("Correct!");
-} elseif ($answer != $exampleNum) {
-    line("{$answer} is wrong answer ;( Correct answer was {$exampleNum}. Let's try again, {$name}!");
-    break;
-}

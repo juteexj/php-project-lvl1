@@ -7,6 +7,7 @@
             "email": "vo.yar58@yandex.ru"
         }
     ],
+    "minimum-stability": "dev",
     "scripts": {
         "phpcs": "phpcs"
     },

@@ -5,16 +5,12 @@ namespace Project\Game;
 use function \cli\line;
 use function \cli\prompt;
 
-function calc()
+function gcd()
 {
     line("Welcome to the Brain Game!\n");
-    line("What is the result of the expression?\n");
+    line("Find the greatest common divisor of given numbers.\n");
     $name = \cli\prompt("May I have your name?\n");
     line("Hello, %s! \n", $name);
-
-    $operator = array("+", "-", "*");
-    $randOperator = $operator[rand(0, 2)];
-    $numbers = range(1, 100);
 
 
 }
