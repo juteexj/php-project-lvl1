@@ -8,7 +8,8 @@ use function \cli\prompt;
 function Even()
 {
     line("Welcome to the Brain Game!\n");
-    line("Answer \"yes\" if number even otherwise answer \"no\".\n");
+    line("Answer \"yes\" if number even otherwise answer \"no\".
+    Any other answer will be considered an error.\n");
     $name = \cli\prompt("May I have your name?\n");
     line("Hello, %s! \n", $name);
 
