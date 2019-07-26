@@ -12,5 +12,5 @@ function gcd()
     $name = \cli\prompt("May I have your name?\n");
     line("Hello, %s! \n", $name);
 
-
+    
 }
